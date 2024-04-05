@@ -66,6 +66,10 @@ html,body{
 
 @media (max-width:700px) {
 
+    .main h1{
+        height: 60px;
+        font-size: 25px;
+    }
     .image {
         display: grid;
         grid-template-columns: repeat(3 ,0fr);
@@ -86,9 +90,15 @@ html,body{
     }
 
     
+    
 
 }
 @media (max-width:500px) {
+
+    .main h1{
+        height: 50px;
+        font-size: 20px;
+    }
 
     .image {
         display: grid;
@@ -125,10 +135,9 @@ html,body{
 
 @media (max-width:500px) {
     .main h1{
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 40px;
+        font-size: 20px;
+
     }
     .image {
         display: grid;
@@ -163,6 +172,10 @@ html,body{
 
 }
 @media (max-width:400px) {
+    .main h1{
+        height: 40px;
+        font-size: 15px;
+    }
     .image{
         gap: 0.4rem;
         
