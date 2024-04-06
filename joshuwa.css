@@ -4,7 +4,7 @@
     margin: 0px;
 }
 html,body{
-    height: 100%;
+    height: 120%;
     width: 100%;
 }
 
@@ -49,7 +49,6 @@ h1{
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 4px rgb(0, 0, 0);
-    
     text-decoration: none;
     color: black;
 }
@@ -68,4 +67,150 @@ h1{
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+
+    .container h1{
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .songs{
+        display: grid;
+        grid-template-columns: repeat(4,0fr);
+        gap: 22px;
+    }
+    .songs a{
+        width: 20vw;
+        height: 40vh;
+    }
+
+    .songs p{
+        width: 80px;
+        height: 20px;
+        margin-top: 15px;
+    }
+
+    .songs img{
+        width: 20vw;
+        height: 24vh;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .container h1{
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .songs{
+        display: grid;
+        grid-template-columns: repeat(4,0fr);
+        gap: 15px;
+    }
+    .songs a{
+        width: 20vw;
+        height: 35vh;
+    }
+
+    .songs  img {
+        width: 17vw;
+        height: 22vh;
+    }
+    .songs p{
+        width: 70px;
+        height: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .container h1{
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .songs{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        gap: 22px;
+    }
+    .songs a{
+        width: 25vw;
+        height: 35vh;
+    }
+
+    .songs img{
+        width: 20vw;
+        height: 24vh;
+    }
+    .songs p{
+        width: 70px;
+        height: 15px;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .container h1{
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .songs{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        gap: 22px;
+    }
+    .songs a{
+        width: 25vw;
+        height: 33vh;
+    }
+
+    .songs img{
+        width: 20vw;
+        height: 26vh;
+    }
+    .songs p{
+        width: 70px;
+        height: 15px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .container h1{
+        height: 40px;
+        font-size: 20px;
+    }
+    .container{
+        height: 100%;
+    }
+
+    .songs{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        gap: 16px;
+        padding: 15px;
+    }
+    .songs a{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .songs img{
+        width: 18vw;
+        height: 18vh;
+    }
+    .songs p{
+        width: 60px;
+        height: 13px;
+        margin-top: 0px;
+    }
 }
