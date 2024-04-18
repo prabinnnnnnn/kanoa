@@ -4,7 +4,7 @@
     margin: 0px;
 }
 html,body{
-    height: 120%;
+    height: 100%;
     width: 100%;
 }
 
@@ -141,21 +141,22 @@ h1{
     }
     .songs a{
         width: 25vw;
-        height: 35vh;
+        height: 18vh;
     }
 
     .songs img{
+        margin-top: 12px;
         width: 20vw;
         height: 24vh;
     }
     .songs p{
         width: 70px;
         height: 15px;
-        margin-top: 7px;
+        margin-bottom: 10px;
     }
 }
 
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
 
     .container h1{
         height: 40px;
@@ -181,9 +182,9 @@ h1{
         height: 15px;
         margin-top: 0px;
     }
-}
+} */
 
-@media (max-width: 300px) {
+/* @media (max-width: 300px) {
 
     .container h1{
         height: 40px;
@@ -213,4 +214,4 @@ h1{
         height: 13px;
         margin-top: 0px;
     }
-}
+} */
